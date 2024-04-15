@@ -2,13 +2,17 @@
 AI chatbot using React and GO. Uses Google Vertex AI and OpenAI for various text and image generation
 
 ## Setting up frontend server
-- cd chatbot-frontend
-- yarn install
-- yarn start
+```
+  cd chatbot-frontend
+  yarn install
+  yarn start
+```
 
 ## Starting backend server 
-- go mod tidy && go mod vendor
-- go run main.go
+```
+  go mod tidy && go mod vendor
+  go run main.go
+```
 
 ### Pre-requisites and Setup - 
 - Set OpenAPI API key in the environment variable (required for image generation): 
